@@ -75,17 +75,13 @@ body{
     z-index: 1;
 }
 
-.modal {
-    .modal-header{
-        background:$background-dark;
-    }
-    .modal-title{
-        color:floralwhite;
-    }
+.modal-header{
+    background:$background-dark;
+    color:floralwhite;
     .close{
         color:floralwhite;
     }
-    .modal-body{
-        background:$background-pale;
-    }
+}
+.modal-body{
+    background:$background-pale;
 }

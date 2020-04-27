@@ -53,14 +53,11 @@ body {
   bottom: 0px;
   z-index: 1; }
 
-.modal .modal-header {
-  background: #512DA8; }
-
-.modal .modal-title {
+.modal-header {
+  background: #512DA8;
   color: floralwhite; }
+  .modal-header .close {
+    color: floralwhite; }
 
-.modal .close {
-  color: floralwhite; }
-
-.modal .modal-body {
+.modal-body {
   background: #D1C4E9; }
